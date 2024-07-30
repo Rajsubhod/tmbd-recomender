@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tmbd-recomendation"
+version = "0.1.0"
+description = ""
+authors = ["Rajdeep <rajdeepmukherjee2002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+scikit-learn = "^1.5.1"
+nltk = "^3.8.1"
+jolib = "^0.0.1"
+streamlit = "^1.37.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
